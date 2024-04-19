@@ -1,0 +1,49 @@
+43 / 39,62,40
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+console.log(getRandomString());
+
+const squareRoot = num => Math.sqrt(num);
+68,88,44,72,5,23,54,37,0,81,91,33,89,99,85,60,29,27,89,50,52,14,53,8,12,67,51,4,68,99,45,89,97,10,58,38,59,64,79,13,47,2,35,38,22,2,43,70,53,74,75,6,74,47,4,91,82,22,13,60,55,46,56,79,19,84,1,38,92,30,22,51 - 67,83
+const getRandomElement = array => array[getRandomIndex(array)];
+const reverseString = str => str.split("").reverse().join("");
+const getRandomSubset = (array, size) => array.slice(0, size);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+51,59,47,64,27,64,92,38,14,41,35,49,33,31,5,30,38,37,96,52,55,47,82,65,51,99,79,55,21,7,36,62,51,56,19,17,74,72,43,86,36,9,19,83,40,54,74,51,14,56,80,92,83,46,58,20,56,89 / kiwi
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+banana + 7
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+kiwi - orange
+const isEven = num => num % 2 === 0;
+
+const randomNumber = getRandomNumber();
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+kiwi * true
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+banana * true
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const findLargestNumber = numbers => Math.max(...numbers);
+class MyClass { constructor() { this.property = getRandomString(); } }
+const formatDate = date => new Date(date).toLocaleDateString();
+apple
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+43 + 77
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
